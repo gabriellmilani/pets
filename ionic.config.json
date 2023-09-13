@@ -1,0 +1,8 @@
+{
+  "name": "pets",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "da7af636"
+}
