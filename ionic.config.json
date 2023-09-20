@@ -1,8 +1,7 @@
 {
-  "name": "pets",
+  "name": "ionic-app-base",
   "integrations": {
-    "capacitor": {}
+    "cordova": {}
   },
-  "type": "angular",
-  "id": "da7af636"
+  "type": "angular"
 }

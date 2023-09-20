@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button icon-only solid block on-click="goToBack()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Cadastrar Pet
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding id="page5">
+  <form id="cadastrarPet-form4">
+    <ion-item id="cadastrarPet-input9">
+      <ion-label>
+        Nome
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarPet-input10">
+      <ion-label>
+        Raça
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item id="cadastrarPet-input8">
+      <ion-label>
+        Idade
+      </ion-label>
+      <ion-input type="text" placeholder=""></ion-input>
+    </ion-item>
+  </form>
+  <ion-button fill="solid" id="cadastrarPet-button5" (click)="cadastrarPet()">
+    Cadastrar
+  </ion-button>
+</ion-content>
