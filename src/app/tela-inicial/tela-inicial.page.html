@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tela inicial
+    </ion-title>
+    <ion-buttons end>
+      <ion-button ion-button icon-only  on-click="goToLogin()">
+        <ion-icon name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding id="page4" >
+  <ion-button id="telaInicial-button4" on-click="goToCadastrarPet()">
+    Cadastrar Novo Pet
+  </ion-button>
+  <form id="telaInicial-form3">
+    <ion-searchbar placeholder="Buscar Pets" name="" id="telaInicial-search1"></ion-searchbar>
+  </form>
+  <ion-list id="telaInicial-list3" *ngFor="let item of pets.result">
+    <ion-item color="none" id="telaInicial-list-item1">
+      <ion-avatar item-left>
+        <img [src]="item.img"/>
+      </ion-avatar>
+      <h2>{{ item.name }}</h2>
+    </ion-item>
+  </ion-list>
+</ion-content>
